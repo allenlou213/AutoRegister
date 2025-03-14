@@ -2,10 +2,10 @@ package com.billy.android.register
 
 import com.google.gson.Gson
 import org.gradle.api.Project
+import org.gradle.internal.impldep.com.google.gson.Gson
 
 import java.lang.reflect.Type
 
-import static com.android.builder.model.AndroidProject.FD_INTERMEDIATES
 /**
  * 文件操作辅助类
  * @author zhangkb
@@ -13,6 +13,7 @@ import static com.android.builder.model.AndroidProject.FD_INTERMEDIATES
  */
 class AutoRegisterHelper {
     final static def CACHE_INFO_DIR = "auto-register"
+    static final String FD_INTERMEDIATES = "intermediates";
 
     /**
      * 缓存自动注册配置的文件
