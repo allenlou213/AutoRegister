@@ -18,7 +18,7 @@ dependencies {
     implementation 'commons-codec:commons-codec:1.15'
 }
 
-def artifact_version = '2.0.3'
+def artifact_version = '2.0.6-SNAPSHOT'
 def artifact_group = 'com.midea.android'
 def artifact_id = 'autoregister'
 group = artifact_group
