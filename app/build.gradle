@@ -5,6 +5,7 @@ android {
     buildToolsVersion '26.0.2'
     defaultConfig {
         applicationId "com.billy.android.autoregsiter.demo"
+        namespace "com.billy.android.autoregsiter.demo" // 新增此行
         minSdkVersion 14
         targetSdkVersion 25
         versionCode 1

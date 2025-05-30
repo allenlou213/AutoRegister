@@ -12,7 +12,7 @@ import java.lang.reflect.Type
  */
 class AutoRegisterHelper {
     final static def CACHE_INFO_DIR = "auto-register"
-    static final String FD_INTERMEDIATES = "intermediates";
+    static final String FD_INTERMEDIATES = "intermediates"
 
     /**
      * 缓存自动注册配置的文件

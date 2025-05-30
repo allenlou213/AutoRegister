@@ -6,6 +6,7 @@ android {
 
 
     defaultConfig {
+        namespace "com.billy.android.autoregister.demo.library" // 新增命名空间
         minSdkVersion 14
         targetSdkVersion 25
         versionCode 1
